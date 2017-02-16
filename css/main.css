@@ -22,3 +22,20 @@ html {
 body {
   margin: 0;
 }
+
+li a {
+  text-decoration: none;
+  list-style: none;
+  color: #0074d9;
+  display: inline-block;
+}
+
+li a:hover {
+  color: #fff;
+  background-color: #0074d9;
+}
+
+header {
+  text-align: center;
+  background-color: #e2e2e2;
+}
