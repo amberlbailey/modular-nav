@@ -23,7 +23,7 @@ body {
   margin: 0;
 }
 
-li a {
+li, a {
   text-decoration: none;
   list-style: none;
   color: #0074d9;
@@ -38,4 +38,16 @@ li a:hover {
 header {
   text-align: center;
   background-color: #e2e2e2;
+}
+
+@media only screen and (min-width: 38em) {
+
+  ul {
+    text-align: right;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
 }
